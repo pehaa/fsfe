@@ -3,7 +3,7 @@ const http = require("http");
 http
 	.createServer(function (req, res) {
 		res.write(
-			"Pajka on the way to being a full stack engineer! Close your eyes! One more change!"
+			"Pajka on the way to being a full stack engineer! Close your eyes! One more change! Is cron running?"
 		);
 		res.end();
 	})
